@@ -11,7 +11,7 @@ const Authy = () => {
     
       <div>
         
-        <h1 style={{color: isLoggedIn ? "yellowgreen" : "palegreen"}}>{isLoggedIn? "Welcome!":"Plsease Login"}</h1>
+        <h1 style={{color: isLoggedIn ? "indigo" : "teal"}}>{isLoggedIn? "Welcome!":"want to  Login"}</h1>
         <button onClick={()=>handleClick()}>Toggle Login</button>
       </div>
   )

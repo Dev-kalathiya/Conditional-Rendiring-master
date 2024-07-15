@@ -1,13 +1,14 @@
 
 import './App.css'
-import ToggleMessage from './ToggleMessage'
+import Massege from './ToggleMessage'
+
 
 function App() {
 
 
   return (
     <>
-     <ToggleMessage/>
+     <Massege/>
     </>
   )
 }
